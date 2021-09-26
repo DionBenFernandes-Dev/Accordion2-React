@@ -1,0 +1,42 @@
+*{
+  color: chartreuse;
+  text-decoration-color: chartreuse;
+  background: black;
+}
+
+.App {
+  font-family: monospace;
+  align-items: center;
+  text-align: left;
+  padding: 50px;
+  font-size: 20px;
+}
+
+.accordion-item{
+  background-color: chartreuse;
+}
+
+.accordion-button{
+  background-color: black;
+}
+
+.accordion-button:focus{
+  border-color: none;
+  box-shadow: none;
+}
+
+.accordion-button:not(.collapsed){
+  background-color: black;
+}
+
+.accordion-button:not(.collapsed)::after{
+  background-image: none;
+  content: "->";
+  color: chartreuse;
+}
+
+.accordion-button::after{
+  background-image: none;
+  content: "->";
+  color: chartreuse;
+}
